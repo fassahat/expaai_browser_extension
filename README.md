@@ -1,2 +1,2 @@
-# expaai_browser_extension
-EXPAAI - Browser Extension
+# EXPAAI - Browser Extension
+Browser Extension for EXPAAI Model 
