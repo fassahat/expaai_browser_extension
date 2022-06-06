@@ -6,5 +6,30 @@
   "background": {
     "service_worker": "background.js"
   },
-  "permissions": ["storage"]
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "clipboardRead",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+    "file://*/*",
+    "ftp://*/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/icons8-dokument-16.png",
+      "32": "/images/icons8-dokument-32.png",
+      "48": "/images/icons8-dokument-48.png",
+      "128": "/images/icons8-dokument-128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/icons8-dokument-16.png",
+    "32": "/images/icons8-dokument-32.png",
+    "48": "/images/icons8-dokument-48.png",
+    "128": "/images/icons8-dokument-128.png"
+  }
 }
