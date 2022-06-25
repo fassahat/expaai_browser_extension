@@ -1,0 +1,11 @@
+{
+  "name": "expaai_browser_extension",
+  "version": "0.1.0",
+  "description": "EXPAAI Browser Extension",
+  "private": true,
+  "type": "module",
+
+  "dependencies": {
+    "pdfjs-dist": "^2.14.305"
+  }
+}
