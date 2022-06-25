@@ -1,0 +1,1 @@
+console.log("copy and send called from copyAndSend.js!");
